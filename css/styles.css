@@ -189,6 +189,7 @@ h1, h2 {
 }
 
 .bi-github:hover {
+  color: #161b22;
   cursor: pointer;
 }
 
@@ -208,12 +209,8 @@ h1, h2 {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.63);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8.8px);
-  -webkit-backdrop-filter: blur(8.8px);
-  max-width: 23rem;
 }
 
 .card-img-top {
@@ -235,4 +232,16 @@ h1, h2 {
 
 .bgColor {
   background-color: rgba(0, 0, 0, 1) !important;
+}
+
+#submitBtn {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+#closeBtn {
+  width: 40%;
+  display: block;
+  margin: auto;
 }
