@@ -9,6 +9,7 @@ $mailheader = "From: ".$bane" <".$email.">\r\n";
 
 $recipient = "alexsashkou91@gmail.com";
 
+if(!empty($_POST['website'])) die();
 
 mail($recipient, $subject, $message, $mailheader)
 or die("Error!");
