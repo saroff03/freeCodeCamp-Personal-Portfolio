@@ -245,3 +245,13 @@ h1, h2 {
   display: block;
   margin: auto;
 }
+
+#emailResponse {
+  min-height: 50vh;
+}
+
+#back {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

@@ -222,11 +222,10 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <form action="" method="">
-
+          <form action="send-email.php" method="post">
             <div class="mb-3">
               <label for="fullName" class="form-label">Full name</label>
-              <input type="text" class="form-control" id="fullName" name="fullName" required>
+              <input type="text" class="form-control" id="fullName" name="name" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
@@ -235,11 +234,15 @@
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone number</label>
-              <input type="text" class="form-control" id="phone" name="phone" required>
+              <input type="text" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject">
             </div>
             <div class="mb-3">
               <label for="textarea">Your message here:</label><br>
-              <textarea name="additionalInfo" id="info" cols="60" rows="3"></textarea>
+              <textarea name="message" id="info" cols="60" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
           </form>
