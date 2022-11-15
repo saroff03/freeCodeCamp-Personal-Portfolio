@@ -5,7 +5,7 @@ $email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
-$mailheader = "From: ".$bane" <".$email.">\r\n";
+$mailheader = "From: '.$name' <'.$email.'>\r\n";
 
 $recipient = "alexsashkou91@gmail.com";
 
@@ -20,7 +20,7 @@ echo'
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="Stoyan Sarov's personal portfolio">
+  <meta name="description" content="Stoyan Sarovs personal portfolio">
   <meta name="keywords" content="HTML, CSS, Personal, Portfolio, Page, Mobile, ">
   <meta name="author" content="Stoyan Sarov">
   <meta charset="UTF-8">
@@ -39,7 +39,7 @@ echo'
   <!--JavaScript-->
   <script src="index.js"></script>
 
-  <title>Stoyan Sarov's Portfolio</title>
+  <title>Stoyan Sarovs Portfolio</title>
 </head>
 <body>
 
